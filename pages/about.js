@@ -1,14 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar"
-const Home = () => {
+const About = () =>{
     return(
         <div>
             <Navbar/>
-            <h1>
-                Hola Mundo
-            </h1>
-        </div>
+            <h1>Esta es la pagina de About</h1>
+        </div> 
     )
 }
 
-export default Home;
+export default About
