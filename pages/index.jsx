@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
-'/api/avo'
+
 const Home = () => {
 
     const [productList, setProductList] = useState([])
@@ -16,7 +15,6 @@ const Home = () => {
 
     return(
         <div>
-            <Navbar/>
             <h1>
                 Hola Mundo
             </h1>
